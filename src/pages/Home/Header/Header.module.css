@@ -1,0 +1,13 @@
+.apiInfoTitle{
+    color:#45505E;
+    font-size: 1.2rem;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.apiInfoSubtitle{
+    color: #8C9CAD;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 0.9rem;
+}

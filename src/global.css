@@ -1,0 +1,15 @@
+:root{
+  --primary:#008B57;
+  --gray:#8C9CAD; 
+}
+
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #E5E5E5;
+}
