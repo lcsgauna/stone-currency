@@ -1,0 +1,47 @@
+.currencyCard{
+    position: absolute;
+    left:3.5rem;
+    top: 14rem;
+    width: 23rem;
+    height: 16rem;
+    
+}
+
+.currencyCardForm{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+}
+
+.currencyCardForm label{
+    color:#2E3742;
+    font-size: 1.12rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.currencyCardForm input{
+    width: 10rem;
+    height: 3.5rem;
+    border: 1px solid #D7E0EB;
+    border-radius: 4px;
+    box-shadow: #2E3742;
+}
+
+.currencyCardForm input::placeholder{
+    padding-left: 10px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.currencyCardInputRadio{
+    display: flex;
+    align-items: center;
+    gap:0.8rem;
+}
+
+.currencyCardInputRadio input{
+    width: 1rem;
+    height: 1rem;
+}

@@ -1,8 +1,17 @@
+.headerContainer{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 200px 350px;
+    column-gap:1rem;
+    place-items: center;
+}
+
 .apiInfoTitle{
     color:#45505E;
     font-size: 1.2rem;
     line-height: 21px;
     font-weight: 500;
+    margin-bottom: 0.6rem;
 }
 
 .apiInfoSubtitle{
